@@ -29,6 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "@nrwl/cli": "11.0.15",
+    "@nrwl/nest": "^11.0.15",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/tao": "11.0.15",
     "@nrwl/workspace": "11.0.15",
