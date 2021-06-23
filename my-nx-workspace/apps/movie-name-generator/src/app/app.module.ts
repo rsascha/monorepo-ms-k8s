@@ -1,11 +1,13 @@
-import { Module } from '@nestjs/common';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
-@Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, HttpClientModule],
+  providers: [],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

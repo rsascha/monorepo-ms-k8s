@@ -14,10 +14,8 @@ describe('AppService', () => {
   });
 
   describe('getData', () => {
-    it('should return "Welcome to movie-name-generator!"', () => {
-      expect(service.getData()).toEqual({
-        message: 'Welcome to movie-name-generator!',
-      });
+    it('should return "Welcome to api!"', () => {
+      expect(service.getData()).toEqual({ message: 'Welcome to api!' });
     });
   });
 });
