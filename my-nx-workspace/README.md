@@ -1,6 +1,20 @@
-
-
 # MyNxWorkspace
+
+## My System
+
+### OS Configuration
+
+Currently I'm using Ubuntu.
+
+Recommendations:
+* https://ohmyz.sh/
+* https://github.com/jscutlery/nx-completion
+
+### Kubernetes
+
+* https://microk8s.io/
+
+## Generated README
 
 This project was generated using [Nx](https://nx.dev).
 
