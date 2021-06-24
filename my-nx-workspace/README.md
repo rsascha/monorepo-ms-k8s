@@ -1,6 +1,34 @@
 # MyNxWorkspace
 
+## Release to Kubernetes
+
+Create a 'dev' namespace:
+
+```sh
+kubectl create namespace dev
+```
+
+Build and release:
+
+```sh
+make ...
+```
+
 ## My System
+
+### Kustomize
+
+```sh
+curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+```
+
+See: https://kubectl.docs.kubernetes.io/installation/kustomize/binaries/
+
+I'm using version: kustomize/v4.1.3
+
+### Kubernetes
+
+* https://microk8s.io/
 
 ### OS Configuration
 
@@ -10,9 +38,8 @@ Recommendations:
 * https://ohmyz.sh/
 * https://github.com/jscutlery/nx-completion
 
-### Kubernetes
 
-* https://microk8s.io/
+
 
 ## Generated README
 
