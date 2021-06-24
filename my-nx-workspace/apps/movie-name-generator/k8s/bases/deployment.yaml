@@ -1,0 +1,22 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movie-name-generator
+spec:
+  selector:
+    matchLabels:
+      app: movie-name-generator
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: movie-name-generator
+    spec:
+      containers:
+      - name: movie-name-generator
+        ports:
+        - containerPort: 3333
+        env:
+        - name: PORT
+          value: "3333"

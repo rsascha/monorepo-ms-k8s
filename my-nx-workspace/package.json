@@ -25,6 +25,8 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
+    "release:api": "mage -v release:api",
+    "release:movie-name-generator": "mage -v release:movieNameGenerator",
     "help": "nx help"
   },
   "private": true,

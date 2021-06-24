@@ -16,6 +16,10 @@ make ...
 
 ## My System
 
+### Mage
+
+* https://magefile.org/
+
 ### Kustomize
 
 ```sh

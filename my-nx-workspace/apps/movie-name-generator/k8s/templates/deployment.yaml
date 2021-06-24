@@ -1,0 +1,11 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movie-name-generator
+spec:
+  template:
+    spec:
+      containers:
+      - name: movie-name-generator
+        image: ${DOCKER_IMAGE}
